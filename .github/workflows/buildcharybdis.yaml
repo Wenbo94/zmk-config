@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-      - charybids
+      - charybdis
   pull_request:
     branches:
-      - charybids
+      - charybdis
   workflow_dispatch:
 
 jobs:
