@@ -12,6 +12,15 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        zx-la {
+            bindings = <&mo 2>;
+            key-positions = <37 38>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
